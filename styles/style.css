@@ -107,6 +107,13 @@ hr {
     height: 104px;
 }
 
+.course {
+    padding: 16px;
+    width: 237px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+
 .course-info {
     display: flex;
     align-items: center;
@@ -160,8 +167,9 @@ hr {
     .courses {
         grid-template-columns: repeat(2, 1fr);
     }
-}
 
-.blogs {
-    grid-template-columns: repeat(1, 1fr);
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
